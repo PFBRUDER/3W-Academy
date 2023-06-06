@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+		<title>À vous de jouer !</title>
+	</head>
+	<body>
+		<p>Introduction : La spécificité en CSS</p>
+		<div>
+			<p>Synopsis : Quand vous fixez la propriété d'un sélecteur comme "p" à une certaine valeur, cette valeur s'applique à <strong>tous</strong> les "p". Cependant, si vous changez cette même propriété en choisissant une autre valeur pour une occurrence spécifique de p, ce changement va <strong>prendre le dessus</strong> sur la propriété par défaut.
+			</p>
+			<ul>
+				<li><p>Si vous écrivez p {font-family:Garamond;}, tous les "p" seront en police Garamond.</p></li>
+				<li><p>MAIS si vous écrivez li p {font-family:Verdana;}, les "p" à <strong>l'extérieur</strong> de "li" seront en Garamond et les "p" <strong>l'intérieur</strong> de "li" seront en Verdana.
+				</p></li>
+				<li><p>En résumé : plus vos sélecteurs sont précis (spécifiques), plus votre CSS met des priorités dans l'application des styles.</p></li>
+			</ul>
+		</div>
+	</body>
+</html>

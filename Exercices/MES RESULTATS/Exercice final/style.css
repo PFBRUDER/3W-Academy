@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'Courgette';
+  src: url(Courgette/courgette-regular-webfont.woff) format("woff1");
+	font-weight: normal;
+	font-style: normal;
+}
+
+ @font-face {
+  font-family: 'Courgette';
+  src: url(Courgette/courgette-regular-webfont.woff2) format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1, h2, h3, .menu, #citation {
+  font-family:'Courgette';
+} 
+
+.container {
+  width:980px;
+  text-decoration-color: #444;
+  font-size: 18px;
+}
+
+h1 {
+  font-size:40px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+#Symboles, #Géographie, #Démographie {
+  color:#4f89b9
+}
+
+blockquote::before {
+  content: '<<';
+}
+
+blockquote::after {
+  content: '>>';
+}
+
+.gras {
+  font-weight: bold;
+  color:#003884;
+}
+
+.italic {
+  font-style: italic;
+  color: #4f89b9;
+}
+
+.menu {
+  font-weight: bold;
+}
+
+nav ol li a {
+  text-decoration: none;
+}
+
+.img-right {
+  float: right;
+  margin: 1em;
+}
+
+.img-left{
+  float:left;
+  margin:1em;
+}
+
+.clear {
+  clear:both;
+}
+
+#header {
+  text-align: center;
+}
+
+#citation {
+  font-size:25px;
+  text-align: center;
+}
+
+#Simone {
+  text-align: center;
+  background-color: #d7e1ef;
+  margin:0 50px 0 50px;
+}
+
+#footer {
+  font-size:14px;
+  text-align: center;
+}
+
+

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Flexbox.css">
+  <link rel="stylesheet" href="common-v2.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1></h1>
+    <p></p>
+  </header>
+
+  <main>
+    <article>
+      <h2>Défaut</h2>
+      <ul class="parent cards boxDefault">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+    </article>
+    <article>
+      <h2>flex-direction:row-reverse</h2>
+      <ul class="parent cards boxRowReverse">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+    </article>
+    <article>
+      <h2>flex-direction: column</h2>
+      <ul class="parent cards boxColumn">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+    </article>
+    <article>
+      <h2>flex-direction: column-reverse</h2>
+      <ul class="parent cards boxColumnReverse">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+    </article>
+    <article>
+      <h2>nowrap</h2>
+      <ul class="parent cards boxNowrap">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+    </article>
+    <article>
+      <h2>wrap</h2>
+      <ul class="parent cards boxWrap">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+    </article>
+    <article>
+      <h2>align-items: center</h2>
+      <ul class="parent cards boxAlignItemCenter">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+    </article>
+    <article>
+      <h2>align-items: flex-start</h2>
+      <ul class="parent cards boxFlexStart">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+    </article>
+    <article>
+      <h2>align-items: flex-end</h2>
+      <ul class="parent cards boxFlexEnd">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+    </article>
+    <article>
+      <h2>justify-content: center</h2>
+      <ul class="parent cards boxJustifyContentCenter">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+    </article>
+    <article>
+      <h2>justify-content: flex-start</h2>
+      <ul class="parent cards boxJustifyContentFlexStart">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+    </article>
+    <article>
+      <h2>justify-content: flex-end</h2>
+      <ul class="parent cards boxJustifyContentFlexEnd">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+    </article>
+    <article>
+      <h2>justify-content: space-between</h2>
+      <ul class="parent cards boxJustifyContentSpaceBetween">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+    </article>
+    <article>
+      <h2>justify-content: space-around</h2>
+      <ul class="parent cards boxJustifyContentSpaceAround">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+    </article>
+    <article>
+      <h2>justify-content: space-evenly</h2>
+      <ul class="parent cards boxJustifyContentSpaceEvenly">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+    </article>
+    <article>
+      <h2>order</h2>
+      <ul class="parent cards boxOrder">
+        <li><a href="#">A</a></li>
+        <li><a href="#">B</a></li>
+        <li><a href="#">C</a></li>
+        <li><a href="#">D</a></li>
+        <li><a href="#">E</a></li>
+        <li><a href="#">F</a></li>
+      </ul>
+    </article>
+    <article>
+      <h2>grow</h2>
+      <ul class="parent cards boxGrow">
+        <li class="boxGrow small">A</li>
+        <li class="boxGrow small">B</li>
+        <li class="boxGrow small">C</li>
+        <li class="boxGrowDouble">D</li>
+        <li class="boxGrow small">E</li>
+        <li class="boxGrow small">F</li>
+      </ul>
+    </article>
+    <article>
+      <h2>shrink</h2>
+      <ul class="parent cards Shrink">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+    </article>
+    <section>
+      <h2>grow</h2>
+      <article>        
+        <h3>flex-grow:1</h3>  
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, cumque, suscipit excepturi modi officiis expedita at ea aliquam perspiciatis quia perferendis eum quisquam! Fugit, a, illum, quae velit maxime vitae alias dicta minima voluptate dolores cum corporis dolore et nam rem eius sunt sint ducimus explicabo quasi ex eligendi asperiores. Blanditiis explicabo fuga labore laudantium sed distinctio facilis.
+        </p>      
+      </article>
+
+      <artcile>
+        <h3>flex-grow:2</h3>
+        <p>Asperiores, unde, cum velit obcaecati aspernatur a quisquam sit laudantium nisi nulla tempora repudiandae eos quidem esse eius dolorem et pariatur non iste fuga. Dolor, porro labore quaerat rerum numquam enim? Veniam, maxime, tempore aliquid culpa nesciunt asperiores quasi aperiam labore ipsa veritatis doloremque deserunt nisi non eos ex quibusdam quod tempora ratione aliquam autem dolores est minima sunt? Assumenda, numquam amet enim perferendis corporis cum voluptas sint fuga repellat illo a vel sunt.
+        </p>
+      </artcile>
+
+      <artcile>
+        <h3>flex-grow:3</h3>
+        <p>Sunt, asperiores molestias excepturi soluta aut officiis minima dolorum commodi quasi tempore dolore labore officia dolorem explicabo esse laudantium eveniet neque incidunt cupiditate fugiat vitae expedita aliquid sequi necessitatibus voluptatibus quibusdam veritatis cum! Quae, modi, architecto.
+        </p>
+      </artcile>
+    </section>
+
+  </main>
+
+  <footer>
+    <div>
+      <p><img src="logo-3wa.png" alt="logo de l'école de formation 3W Academy"></p>
+      <p>Ce matériel pédagogique est la propriété de la 3W Academy. Cet exercice a été réalisé par <a href="https://fr.linkedin.com/in/christianedumont/fr?original_referer=https%3A%2F%2Fwww.google.com%2F">Christiane Dumont</a> et Stephane Pereck.</p>
+    </div>
+  </footer>
+</body>
+</html>

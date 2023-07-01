@@ -1,0 +1,72 @@
+.test {
+  width: 400px;
+  height: 200px;
+  margin: 100px auto 0;
+  background-color: #fc3;
+}
+
+/* matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())
+permet de mettre toutes les valeurs d'un coup plutôt que les unes après les autres
+*/
+
+/* .test1 {
+  width: 400px;
+  height: 200px;
+  margin: 1px 1px 1px 1px;
+  background-color: rgb(118, 170, 126);
+} */
+
+
+/* .test {
+  transition-duration: 3s; */
+  /* transform-origin: center; */
+  /* transform: scale(2) rotate(45deg); */
+  /* scale(2)= *2 width et height */
+  /* transform: translateY(350px)
+} */
+
+/* .test:hover {
+  background-color: rgb(111, 34, 34);
+} */
+
+
+
+/* .test {
+  transition-property: background-color; 
+  transition-duration: 1s;
+
+  transition-timing-function: linear;
+}
+
+  .test:hover {
+
+  background-color: red;} */
+
+
+  /* =========== ANIMATION ============ */
+
+  .test {
+    animation-duration: 2s;
+    animation-name: ouloulou;
+    animation-iteration-count: 2; 
+    /* là il fera 2 tours */
+    /* si on met infinite: ça va tourner en boucle */
+  }
+
+  @keyframes ouloulou {
+    from {
+      transform:translateX(50%);
+    }
+    to {
+      transform: translateX(0);
+    }    
+  }
+
+.test {
+  display:flex;
+  justify-content: center;
+}
+
+.test:hover {
+background-color: red;
+}

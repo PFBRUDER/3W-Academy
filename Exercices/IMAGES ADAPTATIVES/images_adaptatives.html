@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="images_adaptatives.css">
+  <link rel="stylesheet" href="common-v3.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Images adaptatives</h1>
+    <p>Images adaptatives avec les attributs srcset et sizes / l'élément &lt;/picture&gt;</p>
+  </header>
+
+  <main class="container">
+    <section class="descripteurX">
+      <h2>Démo srcset et descripteur x</h2>
+      <p>
+        Le navigateur sélectionne la version HD de l'image si l'écran est HD.</br>
+        Si le navigateur ne reconnaît pas srcset ou si l'écran n'est pas HD, l'image chargée est celle de src.
+      </p>  
+      <img src="./instructions/ressources/papillon-600.jpg" srcset="./instructions/ressources/papillon-600HD.jpg 2x? " alt="Deux papillons posés sur des fleurs."/>
+    </section>
+
+    <section class="descripteurW">
+      <h2>Démo srcset et descripteur w</h2>
+      <p>J'indique au navigateur la taille de l'image pour qu'il puisse sélectionner celle qu'il considère comme convenant le mieux.</p>
+      <img src="./instructions/ressources/papillon-600.jpg" srcset="./instructions/ressources/papillon-400.jpg 400w, ./instructions/ressources/papillon-600.jpg 600w" alt="Deux papillons posés sur des fleurs."/>
+    </section>
+
+
+    <section class="demoSrcsetEtSizes">
+      <h2>Démo srcset et sizes</h2>
+      <p>sizes indique au navigateur quelle doit être la largeur finale de l'image à l'affichage.        
+      </p>
+
+
+    </section>
+
+
+    <section>
+      <h2>Image par défaut pour les navigateurs </h2>
+        <picture>
+          <source media="(min-width: 0px)" srcset="">
+          <source media="(min-width: 768px)" srcset="">
+          <source media="(min-width: 960px)" srcset="">
+          <source media="(min-width: 1024px)" srcset="">
+          <source media="(min-width: 1024px)" srcset="">
+
+      </picture>
+      ne prenant pas en charge picture
+Propriété de la 3W Academy
+    </section>
+  </main>
+  <footer class="footer">
+    Ce matériel pédagogique est la propriété de la 3W Academy. Cet exercice a été réalisé par Catherine Denos.
+  </footer>
+  
+</body>
+</html>

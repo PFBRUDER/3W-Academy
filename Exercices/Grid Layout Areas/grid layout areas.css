@@ -1,0 +1,40 @@
+.grid {
+  display:grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap:1rem;
+}
+
+main {
+  background-color: #fff;
+  grid-column: 2/5;
+}
+
+.bloc-header {
+  background-color: #ddd;
+  grid-column: 1/6;
+
+}
+
+nav {
+  background-color: #fc3;
+  grid-column: 1/2;
+  gap:1rem;
+  padding:1em;
+  /* grid-row: 1/4; */
+}
+
+aside {
+  background-color: #fa3;
+  grid-column: 5/6;
+  /* grid-row: 1/4; */
+}
+
+.bloc-footer {
+  background-color: #bbb;
+  grid-column:1/6;
+}
+
+.rubrique {
+  border: 1px solid red;
+  padding: 1em;
+}

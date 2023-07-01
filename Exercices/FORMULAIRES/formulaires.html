@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="formulaires.css">
+  <link rel="stylesheet" href="common-v2.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <h1>Un formulaire simple</h1>
+    <p>Faire un formulaire simple</p>
+  </header>
+
+  <main>
+    <form action="contact.php" method="post">      
+      <fieldset>
+        <legend>Mes coordonnées</legend>
+
+        <label for="prenom-id">Prénom</label>
+        <input type="text"  name="prenom" id="prenom"></br>
+
+        <label for="nom">Nom</label>
+        <input type="text" name="Nom" id="nom"></br>
+
+        <label for="Email">Email</label>
+        <input type="email" name="Email"></br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Ma demande</legend>
+        <input type="text" name="Choisir l'objet de ma demande" placeholder="Choisir l'objet de ma demande">
+        <select name="Choisir l'objet de ma demande" id="" placeholder="Choisir l'objet de ma demande"></select></br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+      </fieldset>
+
+      <fieldset>
+        <input type="button" name="Valider le formulaire" id="formulaire">
+      </fieldset>      
+    </form>
+  </main>
+
+  <footer>    
+  </footer>
+  
+</body>
+</html>

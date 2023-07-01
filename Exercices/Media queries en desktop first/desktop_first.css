@@ -1,0 +1,36 @@
+div {
+  display:flex;
+}
+
+.en-tête-de-page, .pied-de-page {
+  background-color: rgb(196, 190, 190);
+  margin-bottom: 0;
+  margin-top:0;
+}
+
+header {
+  margin-bottom: 0;
+}
+
+header {
+  margin-top: 0;
+}
+
+.cadre {
+  padding:0 2em;
+}
+
+
+/* version moblie */
+
+@media screen and (max-width: 1200px) {
+  .div {
+    flex-wrap: wrap;
+  }
+  article {
+    width:50%;
+  }
+}
+
+/* version tablet */
+

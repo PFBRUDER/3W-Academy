@@ -1,0 +1,10 @@
+.block_image {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+#image {
+    width: 360px;
+    height: 600px;
+    cursor: pointer;
+}

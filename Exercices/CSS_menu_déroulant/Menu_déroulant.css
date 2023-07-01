@@ -1,0 +1,43 @@
+nav {
+  background-color: #292828;
+  color:white;
+  margin-top:
+
+}
+
+article {
+  margin-bottom: 10px;
+}
+
+/* on vire les puces et l'espacement créé par des puces */
+
+li {
+  list-style-type:none;
+  margin:0 ;
+  padding:10px;
+}
+
+/* pour mettre les rubrique en ligne et les sous-rubrique en colonne */
+
+ul {
+  margin-top:auto;
+  display:flex;
+  justify-content:space-around;
+  padding: 10px;
+}
+
+.rubriqueVerticale {
+  position:absolute;
+  flex-direction: column;
+  background-color: red;
+}
+
+.rubriqueVerticale .sousRub2 {
+  left: 885px
+}
+
+.rubriqueVerticale .sousRub3 {
+  right: 255px;
+}
+
+

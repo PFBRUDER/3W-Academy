@@ -1,0 +1,45 @@
+header {
+  display: inline-block;
+  /* align-items: center; */
+  text-align: center;
+  width: 100%;
+}
+
+.parent {
+  display: inline-block;
+  width:50%;
+}
+
+.card {
+  display:inline-block;
+  width:50%;
+}
+
+#article1CSS, #article2CSS {
+  width:49%;
+}
+
+#article1TOP, #article2TOP {
+  width:50%;
+  vertical-align: top;
+}
+
+.hack-css {
+  font-size: 0;
+}
+.hack-css * {
+  font-size: initial;
+}
+
+.valign * {
+  vertical-align: top;
+}
+
+
+/* footer {
+  background-color: rgb(108, 84, 84);
+  display: inline-block;
+  /* align-items: center; */
+  /* text-align: center;
+  width: 100%; */
+/* } */ 

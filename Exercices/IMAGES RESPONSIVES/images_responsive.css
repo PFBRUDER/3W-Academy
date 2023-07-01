@@ -1,0 +1,11 @@
+section {
+  display:flex;
+}
+
+main {
+  background-image: url(./instructions/ressources/phare.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+

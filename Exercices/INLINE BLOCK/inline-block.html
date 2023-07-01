@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="common-v2.css">
+  <link rel="stylesheet" href="inline-block.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+      <h1>Colonnes avec display inline-block</h1>
+      <p>
+          Faire des colonnes avec la propriété display inline-block
+      </p>
+  </header>
+  <main>
+    <h2>Parent sans hack</h2>
+    <section class="parent">
+      <article class="card">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo a dolorum quas quasi incidunt ducimus repudiandae sequi cum minus itaque. 
+      </article>
+      <article  class="card">
+        Eligendi, voluptates, culpa necessitatibus cum magni repellat impedit commodi ducimus veniam repudiandae sint nobis hic ab consequuntur vero? Est, suscipit!
+      </article>
+    </section >
+    
+    <h2>Avec article collés</h2>
+    <section class="parent">
+      <article class="card">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo a dolorum quas quasi incidunt ducimus repudiandae sequi cum minus itaque. 
+      </article><article class="card">
+        Eligendi, voluptates, culpa necessitatibus cum magni repellat impedit commodi ducimus veniam repudiandae sint nobis hic ab consequuntur vero? Est, suscipit!
+      </article>
+    </section>
+    
+    <h2>Avec commentaire entre les articles</h2>
+    <section class="parent">
+      <article class="card">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo a dolorum quas quasi incidunt ducimus repudiandae sequi cum minus itaque. 
+      </article><!--
+  --><article class="card">
+        Eligendi, voluptates, culpa necessitatibus cum magni repellat impedit commodi ducimus veniam repudiandae sint nobis hic ab consequuntur vero? Est, suscipit!
+      </article>
+    </section>
+
+    <h2>Méthode CSS pure</h2>
+    <section class="parent">
+      <article class="card" id="article1CSS">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo a dolorum quas quasi incidunt ducimus repudiandae sequi cum minus itaque. 
+      </article>
+      <article class="card" id="article2CSS">
+        Eligendi, voluptates, culpa necessitatibus cum magni repellat impedit commodi ducimus veniam repudiandae sint nobis hic ab consequuntur vero? Est, suscipit!
+      </article>
+    </section>
+
+    <h2>Méthode CSS pure + vertical-align: top</h2>
+    <section class="parent">
+      <article class="card" id="article1TOP">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo a dolorum quas quasi incidunt ducimus repudiandae sequi cum minus itaque. 
+      </article>
+      <article class="card" id="article2TOP">
+        Eligendi, voluptates, culpa necessitatibus cum magni repellat impedit commodi ducimus veniam repudiandae sint nobis hic ab consequuntur vero? Est, suscipit!
+      </article>
+    </section>
+  </main>
+  <footer class="footer">
+    Propriété de la 3W Academy
+
+Ce matériel pédagogique est la propriété de la 3W Academy. Cet exercice a été réalisé par Stephane Pereck.
+  </footer>
+</body>
+</html>

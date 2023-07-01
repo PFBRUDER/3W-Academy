@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1>jeux : juste compte</h1>
+    <section class="container">
+        <h2>Génération du nombre a trouvé...</h2>
+        <p id="chargement"></p>
+        <p id="nbCacher" class="hidden"></p>
+        <input type="button" id="afficher" value="Afficher le nombre caché">
+    </section>
+    <section>
+        <p>Trouver le nombre caché : vous avez <span id="labelInput">5</span> point de vie </p>
+        <input type="number" name="nombreUser" id="nombreUser">
+        <p id="info"></p>
+        <h3 style="color: rgb(207, 29, 29);" id="trouver"></h3>
+    </section>
+</body>
+<script src="justeCompt.js"></script>
+</html>

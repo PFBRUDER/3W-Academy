@@ -1,0 +1,44 @@
+
+input, select,textarea {
+  padding: 1em 2em;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 0.5em;
+}
+
+fieldset {
+  margin: 2em 0; 
+  padding: 1em;
+}
+
+
+
+
+
+
+
+
+input {
+  padding: 0.5em 1em;
+  font-size: 1.6rem;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+}
+
+button {
+  padding: 1em 2em;
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: #DD5735;
+  border: 1px solid #DD5735;
+  border-radius: 0.5em;
+/* LA MAIN */
+}
+
+button:hover {
+  text-decoration: none;
+  color: #DD5735;
+  background-color: #fff;
+}
+

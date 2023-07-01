@@ -1,0 +1,64 @@
+.container {
+  width:600px;
+  height:2200px;
+  margin-bottom: 100px;
+}
+
+.bloc1 {
+  width:500px;
+  height:120px;
+  background-color: red;
+}
+
+/* visible */
+
+.overflow {
+  overflow: visible;
+}
+
+
+/* HIDDEN*/
+
+.overflowHidden {
+  overflow: hidden;
+}
+
+.overflowHidden .bloc1 {
+  padding-bottom:100px;
+}
+
+
+
+/* SCROLL */
+
+.overflowScroll {
+  overflow: scroll;
+}
+
+
+/* AUTO */
+
+.overflowAuto {
+  overflow: auto;
+}
+
+
+/* OVERFLOW ET ELLIPSIS */
+
+.textOverFlow {
+  width:240px;
+  background-color: red;
+}
+
+.ellipsis {
+  text-overflow: ellipsis;
+}
+
+
+/* "text-overflow" et " " */
+
+.rien {
+  text-overflow: " ";
+}
+
+

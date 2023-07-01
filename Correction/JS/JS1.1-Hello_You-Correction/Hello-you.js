@@ -46,3 +46,4 @@ const result = Math.floor(age / 365.25);
 const getResult = `Salut ${userFirstName} ${userLastName}, cette année tu a ${result} ans`
 alert(getResult);
 
+

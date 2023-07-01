@@ -1,0 +1,25 @@
+nav {
+  background-color: #DD5735;
+  display:flex;
+  justify-content: space-around;
+  margin:12em 0;
+}
+
+nav a {
+  padding:1em;
+  color:#fff;
+  font-size: 1em;
+  transition:color 0.2s, background-color 1s, transform 0.5s;
+}
+
+
+
+nav a:hover {
+  text-decoration: none;
+  color: #333;
+  background-color: #fc3;
+  transform: scale(1.5);
+}
+
+
+

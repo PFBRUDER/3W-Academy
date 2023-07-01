@@ -1,0 +1,910 @@
+.simple {
+  display:grid;
+  grid-template-columns: repeat(8, 1fr);
+  border:1px dotted orange;
+  gap:0.5rem;
+}
+
+.simple .bloc-item1 {
+  background-color: beige;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.simple .bloc-item2 {
+  background-color: beige;
+  grid-column:2/9;
+  grid-row: 1/2;
+}
+.simple .bloc-item3 {
+  background-color: beige;
+  grid-column: 1/2;
+  /* grid-row:2/3;; */
+}
+.simple .bloc-item4 {
+  background-color: beige;
+  grid-column:2/9;
+}
+
+/* SIMPLE ALT */
+
+.simpleAlt {
+  display:grid;
+  grid-template-columns: repeat(8, 1fr);
+  border:1px dotted orange;
+  gap:0.5rem;
+}
+
+.simpleAlt .bloc-item1 {
+  background-color: beige;
+  grid-column: 1/2;
+}
+.simpleAlt .bloc-item2 {
+  background-color: beige;
+  grid-column:2/9;
+}
+.simpleAlt .bloc-item3 {
+  background-color: beige;
+  grid-column: 1/2;
+}
+.simpleAlt .bloc-item4 {
+  background-color: beige;
+  grid-column:2/9;
+}
+
+
+/* REPEAT AVEC 12 CASES */
+
+.repeat {
+  display:grid;
+  grid-template-columns: repeat(12, 1fr);
+  border:1px dotted orange;
+  gap:0.5rem;
+}
+
+.repeat .bloc-item1 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.repeat .bloc-item2 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.repeat .bloc-item3 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.repeat .bloc-item4 {
+  background-color: beige;
+  grid-column:10/13;
+}
+.repeat .bloc-item5 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.repeat .bloc-item6 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.repeat .bloc-item7 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.repeat .bloc-item8 {
+  background-color: beige;
+  grid-column:10/13;
+}
+.repeat .bloc-item9 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.repeat .bloc-item10 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.repeat .bloc-item11 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.repeat .bloc-item12 {
+  background-color: beige;
+  grid-column:10/13;
+}
+
+
+/* GAP */
+
+.gap {
+  display:grid;
+  grid-template-columns: repeat(12, 1fr);
+  border:1px dotted orange;
+  gap:4rem 0.5rem;
+}
+
+.gap .bloc-item1 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.gap .bloc-item2 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.gap .bloc-item3 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.gap .bloc-item4 {
+  background-color: beige;
+  grid-column:10/13;
+}
+.gap .bloc-item5 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.gap .bloc-item6 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.gap .bloc-item7 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.gap .bloc-item8 {
+  background-color: beige;
+  grid-column:10/13;
+}
+.gap .bloc-item9 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.gap .bloc-item10 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.gap .bloc-item11 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.gap .bloc-item12 {
+  background-color: beige;
+  grid-column:10/13;
+}
+/* gapAlt */
+
+.gapAlt {
+  display:grid;
+  grid-template-columns: repeat(12, 1fr);
+  border:1px dotted orange;
+  gap:4rem 0.5rem;
+}
+
+.gapAlt .bloc-item1 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.gapAlt .bloc-item2 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.gapAlt .bloc-item3 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.gapAlt .bloc-item4 {
+  background-color: beige;
+  grid-column:10/13;
+}
+.gapAlt .bloc-item5 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.gapAlt .bloc-item6 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.gapAlt .bloc-item7 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.gapAlt .bloc-item8 {
+  background-color: beige;
+  grid-column:10/13;
+}
+.gapAlt .bloc-item9 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.gapAlt .bloc-item10 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.gapAlt .bloc-item11 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.gapAlt .bloc-item12 {
+  background-color: beige;
+  grid-column:10/13;
+}
+
+/* justifyCenter */
+
+.justifyCenter {
+  display:grid;
+  justify-items: center;
+  grid-template-columns: repeat(12, 1fr);
+  border:1px dotted orange;
+  gap:0.5rem;
+}
+
+.justifyCenter .bloc-item1 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.justifyCenter .bloc-item2 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.justifyCenter .bloc-item3 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.justifyCenter .bloc-item4 {
+  background-color: beige;
+  grid-column:10/13;
+}
+.justifyCenter .bloc-item5 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.justifyCenter .bloc-item6 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.justifyCenter .bloc-item7 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.justifyCenter .bloc-item8 {
+  background-color: beige;
+  grid-column:10/13;
+}
+.justifyCenter .bloc-item9 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.justifyCenter .bloc-item10 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.justifyCenter .bloc-item11 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.justifyCenter .bloc-item12 {
+  background-color: beige;
+  grid-column:10/13;
+}
+/* justifyItemStart */
+
+.justifyStart {
+  display:grid;
+  justify-items:start;
+  grid-template-columns: repeat(12, 1fr);
+  border:1px dotted orange;
+  gap:0.5rem;
+}
+
+.justifyStart .bloc-item1 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.justifyStart .bloc-item2 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.justifyStart .bloc-item3 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.justifyStart .bloc-item4 {
+  background-color: beige;
+  grid-column:10/13;
+}
+.justifyStart .bloc-item5 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.justifyStart .bloc-item6 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.justifyStart .bloc-item7 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.justifyStart .bloc-item8 {
+  background-color: beige;
+  grid-column:10/13;
+}
+.justifyStart .bloc-item9 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.justifyStart .bloc-item10 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.justifyStart .bloc-item11 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.justifyStart .bloc-item12 {
+  background-color: beige;
+  grid-column:10/13;
+}
+
+/* justifyEnd */
+.justifyEnd {
+  display:grid;
+  justify-items:end;
+  grid-template-columns: repeat(12, 1fr);
+  border:1px dotted orange;
+  gap:0.5rem;
+}
+
+.justifyEnd .bloc-item1 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.justifyEnd .bloc-item2 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.justifyEnd .bloc-item3 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.justifyEnd .bloc-item4 {
+  background-color: beige;
+  grid-column:10/13;
+}
+.justifyEnd .bloc-item5 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.justifyEnd .bloc-item6 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.justifyEnd .bloc-item7 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.justifyEnd .bloc-item8 {
+  background-color: beige;
+  grid-column:10/13;
+}
+.justifyEnd .bloc-item9 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.justifyEnd .bloc-item10 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.justifyEnd .bloc-item11 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.justifyEnd .bloc-item12 {
+  background-color: beige;
+  grid-column:10/13;
+}
+
+/* AlignItemCenter */
+
+.AlignItemCenter {
+  display:grid;
+  align-items: center;
+  grid-template-columns: repeat(12, 1fr);
+  border:1px dotted orange;
+  gap:4rem 0.5rem;
+  padding:1em 0;
+}
+
+.AlignItemCenter .bloc-item1 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.AlignItemCenter .bloc-item2 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.AlignItemCenter .bloc-item3 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.AlignItemCenter .bloc-item4 {
+  background-color: beige;
+  grid-column:10/13;
+}
+.AlignItemCenter .bloc-item5 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.AlignItemCenter .bloc-item6 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.AlignItemCenter .bloc-item7 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.AlignItemCenter .bloc-item8 {
+  background-color: beige;
+  grid-column:10/13;
+}
+.AlignItemCenter .bloc-item9 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.AlignItemCenter .bloc-item10 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.AlignItemCenter .bloc-item11 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.AlignItemCenter .bloc-item12 {
+  background-color: beige;
+  grid-column:10/13;
+}
+/* AlignItemStart */
+
+.AlignItemStart {
+  display:grid;
+  align-items: start;
+  grid-template-columns: repeat(12, 1fr);
+  border:1px dotted orange;
+  gap:4rem 0.5rem;
+  padding:1em 0; 
+  /* margin:2rem 0; */
+}
+
+.AlignItemStart .bloc-item1 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.AlignItemStart .bloc-item2 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.AlignItemStart .bloc-item3 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.AlignItemStart .bloc-item4 {
+  background-color: beige;
+  grid-column:10/13;
+}
+.AlignItemStart .bloc-item5 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.AlignItemStart .bloc-item6 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.AlignItemStart .bloc-item7 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.AlignItemStart .bloc-item8 {
+  background-color: beige;
+  grid-column:10/13;
+}
+.AlignItemStart .bloc-item9 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.AlignItemStart .bloc-item10 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.AlignItemStart .bloc-item11 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.AlignItemStart .bloc-item12 {
+  background-color: beige;
+  grid-column:10/13;
+}
+/* AlignItemEnd */
+
+.AlignItemEnd {
+  display:grid;
+  align-items: end;
+  grid-template-columns: repeat(12, 1fr);
+  border:1px dotted orange;
+  gap:4rem 0.5rem;
+  padding:1em 0; 
+  /* margin:2rem 0; */
+}
+
+.AlignItemEnd .bloc-item1 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.AlignItemEnd .bloc-item2 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.AlignItemEnd .bloc-item3 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.AlignItemEnd .bloc-item4 {
+  background-color: beige;
+  grid-column:10/13;
+}
+.AlignItemEnd .bloc-item5 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.AlignItemEnd .bloc-item6 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.AlignItemEnd .bloc-item7 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.AlignItemEnd .bloc-item8 {
+  background-color: beige;
+  grid-column:10/13;
+}
+.AlignItemEnd .bloc-item9 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.AlignItemEnd .bloc-item10 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.AlignItemEnd .bloc-item11 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.AlignItemEnd .bloc-item12 {
+  background-color: beige;
+  grid-column:10/13;
+}
+/* AlignItemStretch */
+
+.AlignItemStretch {
+  display:grid;
+  align-items: stretch;
+  grid-template-columns: repeat(12, 1fr);
+  border:1px dotted orange;
+  gap:0.5rem;
+  /* padding:1em 0;  */
+  /* margin:2rem 0; */
+}
+
+.AlignItemStretch .bloc-item1 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.AlignItemStretch .bloc-item2 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.AlignItemStretch .bloc-item3 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.AlignItemStretch .bloc-item4 {
+  background-color: beige;
+  grid-column:10/13;
+}
+.AlignItemStretch .bloc-item5 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.AlignItemStretch .bloc-item6 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.AlignItemStretch .bloc-item7 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.AlignItemStretch .bloc-item8 {
+  background-color: beige;
+  grid-column:10/13;
+}
+.AlignItemStretch .bloc-item9 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.AlignItemStretch .bloc-item10 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.AlignItemStretch .bloc-item11 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.AlignItemStretch .bloc-item12 {
+  background-color: beige;
+  grid-column:10/13;
+}
+
+/* JustifyContentCenter */
+
+.JustifyContentCenter {
+  display:grid;
+  justify-content: center;
+  grid-template-columns: repeat(12, auto);
+  border:1px dotted orange;
+  gap:0.5rem;
+}
+
+.JustifyContentCenter .bloc-item1 {
+  background-color: beige;
+  grid-column: 1/2;
+}
+.JustifyContentCenter .bloc-item2 {
+  background-color: beige;
+  grid-column:2/3;
+}
+.JustifyContentCenter .bloc-item3 {
+  background-color: beige;
+  grid-column: 3/4;
+}
+.JustifyContentCenter .bloc-item4 {
+  background-color: beige;
+  grid-column:4/5;
+}
+.JustifyContentCenter .bloc-item5 {
+  background-color: beige;
+  grid-column: 1/2;
+}
+.JustifyContentCenter .bloc-item6 {
+  background-color: beige;
+  grid-column:2/3;
+}
+.JustifyContentCenter .bloc-item7 {
+  background-color: beige;
+  grid-column: 3/4;
+}
+.JustifyContentCenter .bloc-item8 {
+  background-color: beige;
+  grid-column:4/5;
+}
+.JustifyContentCenter .bloc-item9 {
+  background-color: beige;
+  grid-column: 1/2;
+}
+.JustifyContentCenter .bloc-item10 {
+  background-color: beige;
+  grid-column:2/3;
+}
+.JustifyContentCenter .bloc-item11 {
+  background-color: beige;
+  grid-column: 3/4;
+}
+.JustifyContentCenter .bloc-item12 {
+  background-color: beige;
+  grid-column:4/5;
+}
+
+/* JustifyContentStart */
+
+.JustifyContentStart {
+  display:grid;
+  justify-content:start;
+  grid-template-columns: repeat(12, auto);
+  border:1px dotted orange;
+  gap:0.5rem;
+}
+
+.JustifyContentStart .bloc-item1 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.JustifyContentStart .bloc-item2 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.JustifyContentStart .bloc-item3 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.JustifyContentStart .bloc-item4 {
+  background-color: beige;
+  grid-column:10/13;
+}
+.JustifyContentStart .bloc-item5 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.JustifyContentStart .bloc-item6 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.JustifyContentStart .bloc-item7 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.JustifyContentStart .bloc-item8 {
+  background-color: beige;
+  grid-column:10/13;
+}
+.JustifyContentStart .bloc-item9 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.JustifyContentStart .bloc-item10 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.JustifyContentStart .bloc-item11 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.JustifyContentStart .bloc-item12 {
+  background-color: beige;
+  grid-column:10/13;
+}
+/* JustifyContentEnd */
+
+.JustifyContentEnd {
+  display:grid;
+  justify-content:end;
+  grid-template-columns: repeat(12, auto);
+  border:1px dotted orange;
+  gap:0.5rem;
+}
+
+.JustifyContentEnd .bloc-item1 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.JustifyContentEnd .bloc-item2 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.JustifyContentEnd .bloc-item3 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.JustifyContentEnd .bloc-item4 {
+  background-color: beige;
+  grid-column:10/13;
+}
+.JustifyContentEnd .bloc-item5 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.JustifyContentEnd .bloc-item6 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.JustifyContentEnd .bloc-item7 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.JustifyContentEnd .bloc-item8 {
+  background-color: beige;
+  grid-column:10/13;
+}
+.JustifyContentEnd .bloc-item9 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.JustifyContentEnd .bloc-item10 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.JustifyContentEnd .bloc-item11 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.JustifyContentEnd .bloc-item12 {
+  background-color: beige;
+  grid-column:10/13;
+}
+/* JustifyContentBetween */
+
+.JustifyContentBetween {
+  display:grid;
+  justify-content:space-between;
+  grid-template-columns: repeat(12, auto);
+  border:1px dotted orange;
+  gap:0.5rem;
+}
+
+.JustifyContentBetween .bloc-item1 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.JustifyContentBetween .bloc-item2 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.JustifyContentBetween .bloc-item3 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.JustifyContentBetween .bloc-item4 {
+  background-color: beige;
+  grid-column:10/13;
+}
+.JustifyContentBetween .bloc-item5 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.JustifyContentBetween .bloc-item6 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.JustifyContentBetween .bloc-item7 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.JustifyContentBetween .bloc-item8 {
+  background-color: beige;
+  grid-column:10/13;
+}
+.JustifyContentBetween .bloc-item9 {
+  background-color: beige;
+  grid-column: 1/4;
+}
+.JustifyContentBetween .bloc-item10 {
+  background-color: beige;
+  grid-column:4/7;
+}
+.JustifyContentBetween .bloc-item11 {
+  background-color: beige;
+  grid-column: 7/10;
+}
+.JustifyContentBetween .bloc-item12 {
+  background-color: beige;
+  grid-column:10/13;
+}
+
+
+
+
+/* gridAreas */
+
+.gridAreas {
+  display:grid;
+  grid-template-areas:
+  "header   header      header      header"
+  "article  article     article     aside"
+  "footer   footer      footer      footer"  
+  ;
+}
+
+header {
+  grid-area: header;  
+  background-color: red;
+}
+
+article {
+  grid-area: article;
+  background-color: yellow;
+}
+
+aside {
+  grid-area: aside;
+  background-color: blue;
+}
+
+footer {
+  grid-area: footer;
+  background-color: green;
+}

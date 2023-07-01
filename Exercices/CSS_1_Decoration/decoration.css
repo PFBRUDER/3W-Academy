@@ -1,0 +1,123 @@
+/* =========================================== 
+========== DEGRADES LINEAIRES =============
+=========================================== */
+
+.cadre {
+  padding: 2em;
+}
+
+/* POUR FAIRE DISPARAITRE LES DEGRADES */
+
+/* .dégradés {
+  display: none;
+} */
+
+.dégradé-linéaire {
+  background: linear-gradient(yellow,red);
+}
+
+.dégradé-avec-plusieurs-couleurs {
+  background: linear-gradient(green,yellow,red);
+}
+
+.dégradé-linéaire-avec-un-angle {
+  background: linear-gradient(90deg,green, yellow,red);
+}
+
+.Dégradé-linéaire-avec-des-point-d-arret-en-pourcentage {
+  background: linear-gradient(90deg,rgb(0, 128, 0) 30%, rgb(255, 255, 0) 40%,rgb(255, 0, 0) 50%);
+}
+
+.dégradé-linéaire-répété-plusieurs-fois {
+  background: repeating-linear-gradient(90deg,rgb(0, 128, 0) , rgb(255, 255, 0) ,rgb(255, 0, 0) 25%);
+}
+
+/* =========================================== */
+/* ========== DEGRADES RADIAL ================ */
+/* =========================================== */
+
+.Dégradé-radial {
+  background: radial-gradient(yellow, red);
+}
+
+.Dégradé-radial-en-cercle {
+  background: radial-gradient(circle, yellow 0%, red 50%);
+}
+
+.Dégradé-radial-en-cercle-inscrit {
+  background: radial-gradient(circle, yellow 0%, red 10%);
+}
+
+.Dégradé-radial-en-cercle-placé-à-25pourcent {
+  background: radial-gradient(circle at 25%, yellow 0%, red 10%);
+}
+
+/* =========================================== */
+/* ========== OMBRE SUR LES BOITES =========== */
+/* =========================================== */
+
+.Ombre-petite {
+  background-color: rgb(223, 222, 222);
+  box-shadow: -1px 1px 0px 0px rgba(0, 0, 0, 0.5) ;
+}
+
+.Ombre-grande {
+  background-color: rgb(223, 222, 222);
+  box-shadow:0px 10px 15px 3px rgba(0,0,0,0.5) ;
+}
+
+.Ombre-interne {
+  background-color: rgb(223, 222, 222);
+  box-shadow: inset 0px 2px 3px 0px #000000;
+}
+
+.Ombre-colorée {
+  background-color: rgb(223, 222, 222);
+  box-shadow: 2px 5px 3px 0px rgba(247, 118, 5, 0.765) ;
+}
+
+.Ombre-étalée {
+  background-color: rgb(223, 222, 222);
+  box-shadow: 0px 0px 3px 5px rgba(247, 118, 5, 0.765) ;
+}
+
+.Ombre-multiple {
+  background-color: rgb(223, 222, 222);
+  box-shadow:
+  0px 2px 1px 1px rgb(0, 128, 0, 0.4),
+  0px 5px 2px 2px rgb(255, 255, 0, 0.3),
+  0px 15px 8px 10px rgba(247, 118, 5, 0.5) ;
+}
+
+
+/* =========================================== */
+/* ========== OMBRE SUR LES TEXTES =========== */
+/* =========================================== */
+
+.ombre-texte {
+  color:white;
+}
+
+.Ombre-texte-petite {
+  background-color: rgb(223, 222, 222);
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.2) ;
+}
+
+.Ombre-texte-grande {
+  background-color: rgb(223, 222, 222);
+  text-shadow: 1px 4px 2px rgba(0,0,0,0.5) ;
+}
+
+.Ombre-texte-colorée {
+  background-color: rgb(223, 222, 222);
+  text-shadow: 1px 5px 3px rgba(247, 118, 5, 0.765) ;
+}
+
+.Ombre-texte-multiple {
+  background-color: rgb(223, 222, 222);
+  text-shadow:
+  2px 1px 2px  rgb(0, 128, 0, 0.5),
+  3px 2px 2px  rgb(255, 255, 0, 0.5),
+  4px 3px 2px rgba(247, 118, 5, 0.5) ;
+}
+

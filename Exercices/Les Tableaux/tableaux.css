@@ -1,0 +1,15 @@
+th, td {
+  border:1px solid #ddd
+}
+
+table {
+  border-collapse: collapse;
+}
+
+#tabHeadComplexe {
+  border-bottom: 2px solid #999;
+}
+
+#tabFootComplexe {
+  border-top: 2px solid #999;
+}

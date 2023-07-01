@@ -1,0 +1,49 @@
+.fleche { 
+  color: black;
+  width: 235px;
+  height: 235px;
+  padding: 10px;
+  margin:  200px auto;
+  justify-content: center;
+  transform-origin: center center;
+  transform:rotate(90deg);
+}
+
+/* .fleche:hover {
+  animation: flecheHover;
+  transform:rotate(-90deg) 3s;
+} */
+
+.fleche:hover {
+  transform-origin: center center;
+  transition:transform 3s;
+  transform:rotate(0deg)
+}
+
+
+.projet {
+  color: black;
+  width: 600px;
+  height: 600px;
+  padding: 160px;
+  margin: 200px auto;
+  text-align: center;
+  justify-content: center;
+  border: 15px solid red;
+  text-align: center;
+  font-size: 3em;
+  border-radius: 50%;
+}
+
+.projet img {
+  transform: scale(2.1)
+}
+
+.projet p {
+  color:red;
+}
+
+.projet img:hover {
+  transition: transform 3s;
+  transform: scale(1);
+}

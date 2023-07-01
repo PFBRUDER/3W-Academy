@@ -1,0 +1,54 @@
+/* DESKTOP */
+
+
+.carre {
+  width: 150px;
+  height: 150px;
+}
+
+.red {
+  background-color:red;
+}
+.yellow{
+  background-color:yellow;
+}
+.blue {
+  background-color:blue;
+}
+
+.black {
+  background-color:black;
+}
+
+main {
+  display:flex;
+  justify-content: center;
+  gap:1em;
+  
+}
+
+
+/* mobile */
+
+@media screen and (max-width: 780px) {
+  main {
+    flex-direction: column;
+    background-color: violet;
+  }
+  .carre {
+    width:100%;
+  }
+}
+
+/* tablet */
+
+
+@media screen and (min-width: 780px) and (max-width:1200px) {
+  main {
+    flex-wrap: wrap;
+    background-color:green
+  }
+  .carre {
+    width:40%;
+  }
+}

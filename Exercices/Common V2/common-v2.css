@@ -1,0 +1,132 @@
+/* *****************************************************************
+                            GENERAL
+***************************************************************** */
+
+* {
+	box-sizing: border-box; /* On spécifie que la largeur (width) de chaque boîte comprend le padding et la bordure (par défaut, c'est seulement la largeur du contenu) */
+}
+
+html {
+	font-size: 62.5%; /* 1rem = 10px (la formule est 10/16*100) la taille par défaut étant 16px */
+}
+
+body {
+	font-size: 1.6rem; /* on remet la taille du texte par défaut pour le body à 16px en utilisant les rem comme unité) */      
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+	font-family: sans-serif;
+	color: #555;
+	background-color: #eee;
+  }
+  
+
+/* Le titre principal d'un flux */
+h1 {
+	font-size: 4rem;
+	color: #DD5735;
+}
+
+/* Le titre de second niveau  */
+h2 {
+	font-size: 3.2rem;
+	color: #333;
+}
+
+
+/* Le titre de troisème niveau */
+h3 {
+	font-size: 2.4rem;
+}
+
+/* Les liens */
+a {
+	text-decoration: none;
+	color: #DD5735;
+}
+
+/* Ajout d'un élément de décoration au survol */
+a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+
+
+/* *****************************************************************
+                                  HEADER
+  ***************************************************************** */
+
+/* L'entête de la page */
+.header {
+	padding: 1em;
+	text-align: center;
+	color: #999;
+	background-color: #444;
+}
+
+/* Pas de marge pour le titre pricipal */
+.header h1 {
+	margin: 0;
+}
+  
+  
+  
+  /* *****************************************************************
+                                  MAIN
+  ***************************************************************** */
+
+  /* Le container permet de limiter la largeur d'un contenu */
+.container {
+	padding: 2em;
+	max-width: 1100px; /* On donne une largeur au container */
+	margin-left: auto; /* On centre son contenu */
+	margin-right: auto;
+}
+
+/* Utile pour mettre en évidence un parent */
+.parent {
+	border: 1px dashed #DD5735;
+}
+/* Les articles */
+article {
+	background-color: #fff;
+	padding: 1em;
+}
+
+/* --- CARDS --- */
+
+.card,
+.cards > * {
+	padding: 2em;
+	background-color: #fff;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+
+.gutter > * {
+	margin: 1em;
+}
+
+/* Utile pour mettre en forme du code informatique */
+.code {
+	padding: 0.5em;
+	font-family: monospace;
+	font-size: 1.4rem;
+	color: #000;
+	background-color: #ddd;
+	border: 1px solid #bbb;
+}
+  
+  
+  /* *****************************************************************
+                                  FOOTER
+  ***************************************************************** */
+
+
+/* Le pied de page */
+.footer {
+	padding: 2em;
+	text-align: center;
+	color: #fff;
+	background-color: #444;
+}
+

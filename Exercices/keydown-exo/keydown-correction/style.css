@@ -1,0 +1,13 @@
+body{ overflow: none; }
+div.move {  
+    position: relative;            
+    border: 2px solid #f43c80;            
+    background: pink;            
+    height: 100px;           
+     width: 100px; 
+    font-size: 15px;  
+    font-weight: bold; 
+    padding: 5px;     
+}
+
+h2 {  margin: 20px 0; }
